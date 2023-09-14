@@ -7,13 +7,11 @@
  */
 
 int print_last_digit(int number)
-{ 
-	int r;
-  if(number > 0)
-	r=number -10*(number/10);
-  else
-	  r=10*(number/10) - number;
-
-	  _putchar('0' + r);
-	 return r;
+{ int r;
+	if (number > 0)
+	r = number - 10 * (number / 10);
+	else
+	r = 10 * (number / 10) - number;
+	 _putchar('0' + r);
+	return (r);
 }
