@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * main print the sting _putchar in the standatard output
+ * main - print the sting _putchar in the standatard output
  *
  * Return: 0
  */
-int main()
+int main(void)
 {
 _putchar('_');
 _putchar('p');
